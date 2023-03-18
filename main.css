@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #333;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-content: center;
+}
+
+
+
+nav ul li{
+    list-style: none;
+}
+nav ul li img{
+    height: 13px;
+    width: 13px;
+}
+
+.buguer-icon{
+    justify-items: center;
+    align-content: center;
+}
+
+.buguer-icon__line{
+    background: #fafafa;
+    border-radius: 2px;
+    margin: 2px auto;
+    width: 15px;
+    height: 3px;
+}
